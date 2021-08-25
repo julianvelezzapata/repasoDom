@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <title>Repaso Javascript DOM</title>
+</head>
+<body class="bg-dark">
+    <header>
+
+    </header>
+    <main >
+        
+        <div class="container mt-5">
+            <!--tarjetas de las canciones a mostrar -->
+            <div class="row row-cols-1 row-cols-md-3 g-4 ">
+               
+                <div class="col ">
+                    <div class="card h-100 bg-secondry" >
+                        <img src="imgs/jamFyahGRN.jpg" class="card-img-top" alt="jamFyahGRN" id="foto1">
+                        <div class="card-body">
+                          <h5 class="card-title" id="titulo1">Spanglish Flava - Jam Fyah</h5>
+                         <audio src="audios/SpanglishFlavaJamFyah.mp3" controls class="w-100" id="audio1"></audio>
+                        </div>
+                      </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 bg-secondry">
+                        <img src="imgs/akaserio.jpg" class="card-img-top" alt="akaserio" id="foto2">
+                        <div class="card-body">
+                          <h5 class="card-title" id="titulo2"> flotando entre mortales  - AKA serio </h5>                         
+                         <audio src="audios/flotandoEntreMortalesAkaSerio.mp3" controls class="w-100" id="audio2"></audio>
+                        </div>
+                      </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 bg-secondry">
+                        <img src="imgs/dano.jpg" class="card-img-top" alt="dano" id="foto3" >
+                        <div class="card-body">
+                          <h5 class="card-title" id="titulo3">
+                             2 Segundos (feat. Cruz Cafuné) -  Dano </h5>
+                         <audio src="audios/DosSegundosDano.mp3" controls class="w-100" id="audio3"></audio>
+                        </div>
+                      </div>
+                </div>
+                
+            </div>
+        
+            <!--botones de control-->
+        <div class="row mt-5" >
+            <div class="col">
+                <div class="d-grid gap-2 ">
+                    <button class="btn btn-primary" id="boton" type="button">Button</button>
+                  <!--  <button class="btn btn-primary" type="button">Button</button>-->
+                  </div>
+            </div>
+        </div>
+
+        </div>
+        
+    </main>
+    <footer>
+
+    </footer>
+    <script src="controlador.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+</body>
+</html>
